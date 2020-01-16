@@ -1,3 +1,5 @@
+# coding=utf-8
+# author: san shui
 import string
 
 
@@ -76,3 +78,9 @@ class OrderStr:
             num += 1
             if num >= self.ret_num:
                 return order_str_list
+
+
+if __name__ == '__main__':
+    order_str = OrderStr(diy_str='000000', ret_num=1000)
+    order_str_list = order_str.get_order_str()
+    print(order_str_list)
