@@ -7,12 +7,12 @@
 
 #### 使用方式：
 ``` python
-order_str = OrderStr(diy_str='000000', ret_num=100)
+order_str = OrderStr(diy_str='abcDE1', ret_num=100)
 order_str_list = order_str.get_order_str()
 print(order_str_list)
 ```
 
 #### 得到的结果:
 ``` python
-['000001', '000002', '000003', '000004', '000005', '000006', '000007', '000008', '000009', '00000a', '00000b', '00000c', '00000d', '00000e', '00000f', '00000g', '00000h', '00000i', '00000j', '00000k', '00000l', '00000m', '00000n', '00000o', '00000p', '00000q', '00000r', '00000s', '00000t', '00000u', '00000v', '00000w', '00000x', '00000y', '00000z', '00000A', '00000B', '00000C', '00000D', '00000E', '00000F', '00000G', '00000H', '00000I', '00000J', '00000K', '00000L', '00000M', '00000N', '00000O', '00000P', '00000Q', '00000R', '00000S', '00000T', '00000U', '00000V', '00000W', '00000X', '00000Y', '00000Z', '000010', '000011', '000012', '000013', '000014', '000015', '000016', '000017', '000018', '000019', '00001a', '00001b', '00001c', '00001d', '00001e', '00001f', '00001g', '00001h', '00001i', '00001j', '00001k', '00001l', '00001m', '00001n', '00001o', '00001p', '00001q', '00001r', '00001s', '00001t', '00001u', '00001v', '00001w', '00001x', '00001y', '00001z', '00001A', '00001B', '00001C']
+['abcDE2', 'abcDE3', 'abcDE4', 'abcDE5', 'abcDE6', 'abcDE7', 'abcDE8', 'abcDE9', 'abcDEa', 'abcDEb', 'abcDEc', 'abcDEd', 'abcDEe', 'abcDEf', 'abcDEg', 'abcDEh', 'abcDEi', 'abcDEj', 'abcDEk', 'abcDEl', 'abcDEm', 'abcDEn', 'abcDEo', 'abcDEp', 'abcDEq', 'abcDEr', 'abcDEs', 'abcDEt', 'abcDEu', 'abcDEv', 'abcDEw', 'abcDEx', 'abcDEy', 'abcDEz', 'abcDEA', 'abcDEB', 'abcDEC', 'abcDED', 'abcDEE', 'abcDEF', 'abcDEG', 'abcDEH', 'abcDEI', 'abcDEJ', 'abcDEK', 'abcDEL', 'abcDEM', 'abcDEN', 'abcDEO', 'abcDEP', 'abcDEQ', 'abcDER', 'abcDES', 'abcDET', 'abcDEU', 'abcDEV', 'abcDEW', 'abcDEX', 'abcDEY', 'abcDEZ', 'abcDF0', 'abcDF1', 'abcDF2', 'abcDF3', 'abcDF4', 'abcDF5', 'abcDF6', 'abcDF7', 'abcDF8', 'abcDF9', 'abcDFa', 'abcDFb', 'abcDFc', 'abcDFd', 'abcDFe', 'abcDFf', 'abcDFg', 'abcDFh', 'abcDFi', 'abcDFj', 'abcDFk', 'abcDFl', 'abcDFm', 'abcDFn', 'abcDFo', 'abcDFp', 'abcDFq', 'abcDFr', 'abcDFs', 'abcDFt', 'abcDFu', 'abcDFv', 'abcDFw', 'abcDFx', 'abcDFy', 'abcDFz', 'abcDFA', 'abcDFB', 'abcDFC', 'abcDFD']
 ```
