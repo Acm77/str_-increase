@@ -22,7 +22,10 @@ class OrderStr:
 
     def __get_args(self):
         str_char_list = [i for i in self.diy_str]
-        str_char_index_list = [self.all_str.index(j) for j in str_char_list]
+        try:
+            str_char_index_list = [self.all_str.index(j) for j in str_char_list]
+        except Exception as e:
+            raise Exception('every diy_str must be in all_str, error info: %s' % e)
         return str_char_list, str_char_index_list
 
     def __incr_iter(self):
@@ -81,6 +84,6 @@ class OrderStr:
 
 
 if __name__ == '__main__':
-    order_str = OrderStr(diy_str='000000', ret_num=1000)
+    order_str = OrderStr(diy_str='abcDE1', ret_num=100)
     order_str_list = order_str.get_order_str()
     print(order_str_list)
